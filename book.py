@@ -8,7 +8,8 @@ class Book:
 
     def borrow_book(self):
         print(f"{self.title} has been borrowed.")
-
+    def return_book(self):
+        print(f"{self.title} has been returned.")
 
 book = Book("Clean Code", "Robert C. Martin")
 book.display_info()
