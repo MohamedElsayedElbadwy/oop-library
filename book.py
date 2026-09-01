@@ -4,7 +4,7 @@ class Book:
         self.author = author
 
     def display_info(self):
-        print(f"{self.title} - {self.author}")
+        print(f"Title: {self.title} - Author: {self.author}")
 
     def borrow_book(self):
         print(f"{self.title} has been borrowed.")
