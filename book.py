@@ -10,6 +10,8 @@ class Book:
         print(f"{self.title} has been borrowed.")
     def return_book(self):
         print(f"Book '{self.title}' has beenn returned successfully.")
+    def get_details(self):
+        return f"{self.title} by {self.author}"
 
 book = Book("Clean Code", "Robert C. Martin")
 book.display_info()
