@@ -9,7 +9,7 @@ class Book:
     def borrow_book(self):
         print(f"{self.title} has been borrowed.")
     def return_book(self):
-        print(f"Book '{self.title}' has been returned successfully.")
+        print(f"Book '{self.title}' has beenn returned successfully.")
 
 book = Book("Clean Code", "Robert C. Martin")
 book.display_info()
